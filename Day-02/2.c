@@ -1,4 +1,4 @@
-// Write a C program to print !d array.
+// Write a C program to print 1d array.
 
 #include <stdio.h>
 void main() {
@@ -11,6 +11,6 @@ void main() {
 	}
 	printf("The array elements are : ");
 	for (i = 0; i < n; i++) {
-		printf(" %d ", *(a + i)); //Correct the code
+		printf(" %d ", *(a + i)); 
 	}
 }
